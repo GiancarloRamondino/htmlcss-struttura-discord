@@ -47,13 +47,7 @@ header{
 }
 
 
-/*secondo*/
-.container-orizzontal{
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-}
+/*secondo/terzo/quarto*/
 
 .content2{
     width: 50%;
@@ -69,6 +63,56 @@ header{
     background-color: pink; 
 }
 
+/*quinto*/
+
+.container-orizzontal{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.content5{
+    width: 80%;
+    border: dotted black;
+    height: 80%;
+    background-color: skyblue;
+}
+
+/*sesto*/
+.content6{
+    width: 50%;
+    border: dotted black;
+    height: 80%;
+    background-color: skyblue;
+    margin: 0;
+}
+
+.content7{
+    width: 30%;
+    border: dotted black;
+    height: 80%;
+    background-color: skyblue;
+    margin: 0;
+    display: flex;
+}
+
+.container-orizzontal6{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.max-wid{
+    width: 25%;
+    height: 99%;
+    margin: 0;
+    border: dotted white;
+}
 
 /*footer*/
 
@@ -156,7 +200,7 @@ footer{
 }
 
 .bcolor-olivedrab{
-    background-color: olivedrab;
+    background-color: rgb(6, 152, 147);
 }
 
 .bcolor-gold{
@@ -175,7 +219,7 @@ footer{
     background-color: white;
 }
 
-.bcolor-white{
+.bcolor-grey{
     background-color: grey;
 }
 
