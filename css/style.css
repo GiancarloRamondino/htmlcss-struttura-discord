@@ -29,9 +29,48 @@ header{
     max-width: 80%;
 }
 
+/*main*/
+
+/*primo 1*/
+.container-orizzontal{
+    height: 400px;
+}
+
+.content2{
+    width: 60%;
+    border: dotted black;
+    height: 80%;
+    background-color: violet;
+}
+
+
+
 
 /*footer*/
 
+footer{
+    height: 100px;
+    margin-top: 5px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.container-foot{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.content-foot{
+    margin-left: 0;
+    margin-right: 0;
+    border: dotted black;
+}
 
 /*utility*/
 
@@ -43,8 +82,16 @@ header{
     text-align: center;
 }
 
+.t-left{
+    text-align: left;
+}
+
 .d-flex{
     display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: nowrap;
 }
 
 
@@ -101,5 +148,5 @@ header{
 }
 
 .bcolor-black{
-    background-color: black;
+    background-color: rgb(48, 47, 47);
 }
