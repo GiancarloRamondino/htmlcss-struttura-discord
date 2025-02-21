@@ -9,9 +9,24 @@ header{
     background-color: skyblue;
 }
 
-.container{
-    width: 100px;
+.content{
+    width: 30%;
     border: dotted black;
+    line-height: normal;
+    height: fit-content;
+}
+
+.content1{
+    width: 40%;
+    border: dotted black;
+    height: fit-content;
+}
+
+
+.container{
+    height: 100px;
+    align-items: center;
+    max-width: 80%;
 }
 
 
@@ -32,11 +47,6 @@ header{
     display: flex;
 }
 
-.j-centre{
-    justify-self: center;
-    align-items: center;
-
-}
 
 
 /*colors*/
