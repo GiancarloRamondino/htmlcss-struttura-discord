@@ -1,0 +1,95 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/*header*/
+header{
+    background-color: skyblue;
+}
+
+.container{
+    width: 100px;
+    border: dotted black;
+}
+
+
+/*footer*/
+
+
+/*utility*/
+
+.t-right{
+    text-align: right;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.j-centre{
+    justify-self: center;
+    align-items: center;
+
+}
+
+
+/*colors*/
+
+.bcolor-red{
+    background-color: red;
+}
+
+.bcolor-blue{
+    background-color: blue;
+}
+
+.bcolor-skyblue{
+    background-color: skyblue;
+}
+
+.bcolor-royalblue{
+    background-color: royalblue;
+}
+
+.bcolor-acquamarine{
+    background-color: aquamarine;
+}
+
+
+.bcolor-green{
+    background-color: green;
+}
+
+.bcolor-olivedrab{
+    background-color: olivedrab;
+}
+
+.bcolor-gold{
+    background-color: goldenrod;
+}
+
+.bcolor-rosybrown{
+    background-color: rosybrown;
+}
+
+.bcolor-pink{
+    background-color: pink;
+}
+
+.bcolor-white{
+    background-color: white;
+}
+
+.bcolor-white{
+    background-color: grey;
+}
+
+.bcolor-black{
+    background-color: black;
+}
