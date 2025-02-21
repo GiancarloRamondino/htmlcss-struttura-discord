@@ -32,11 +32,14 @@ header{
 /*main*/
 
 /*primo 1*/
-.container-orizzontal{
+.container-orizzontal1{
     height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
-.content2{
+.content3{
     width: 60%;
     border: dotted black;
     height: 80%;
@@ -44,6 +47,27 @@ header{
 }
 
 
+/*secondo*/
+.container-orizzontal{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.content2{
+    width: 50%;
+    border: dotted black;
+    height: 80%;
+    background-color: skyblue;
+}
+
+.content4{
+    width: 30%;
+    border: dotted black;
+    height: 80%;
+    background-color: pink; 
+}
 
 
 /*footer*/
@@ -73,6 +97,14 @@ footer{
 }
 
 /*utility*/
+
+.margin-right{
+    margin-right: 0;
+}
+
+.margin-left{
+    margin-left: 0;
+}
 
 .t-right{
     text-align: right;
