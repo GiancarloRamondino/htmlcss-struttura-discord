@@ -1,7 +1,7 @@
 *{
     margin: 0 auto;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box-box;
 }
 
 /*header*/
@@ -81,23 +81,21 @@ header{
 
 /*sesto*/
 .content6{
-    width: 50%;
+    width: 30%;
     border: dotted black;
     height: 80%;
-    background-color: skyblue;
     margin: 0;
 }
 
 .content7{
-    width: 30%;
+    width: 50%;
     border: dotted black;
     height: 80%;
-    background-color: skyblue;
     margin: 0;
     display: flex;
 }
 
-.container-orizzontal6{
+.container-orizzontal2{
     height: 400px;
     display: flex;
     flex-direction: column;
